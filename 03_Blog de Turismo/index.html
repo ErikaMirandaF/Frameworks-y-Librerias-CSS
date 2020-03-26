@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+	<!--Importar la fuente de los íconos de Google-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Importar la hojas de estilos de materialize css-->
+	<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<link href="css/estilos.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<link rel="shortcut icon" type="image/x-icon" href="#">
+	<title>Blog de Turismo</title>
+</head>
+<body class="turismo-body">
+	<div class="contenedor">
+		<div class="row">
+			<div class="col m1"></div>
+			<div class="col m3"></div>
+			<div class="col m8"></div>
+		</div>
+		<header class="row">
+			<div class="col m1 hide-on-small-and-down"></div>
+			<div class="col s4 m3">
+				<div class="row">
+					<div class="col s4"><img src="img/turismo.jpg"></div>
+				</div>
+			</div>
+			<div class="nav-content col s9 m8 right-align">
+				<a class="waves-effect waves-light btn" href="#"><i class="material-icons left">home</i><span class="hide-on-small-and-down">Inicio</span></a>
+				<a class="waves-effect waves-light btn" href="#"><i class="material-icons left">location_on</i><span class="hide-on-small-and-down">Estuve En...</span></a>
+				<a class="waves-effect waves-light btn" href="#"><i class="material-icons left">grade</i><span class="hide-on-small-and-down">Mejores Viajes</span></a>
+				<a class="waves-effect waves-light btn" href="#"><i class="material-icons left">chat_bubble</i><span class="hide-on-small-and-down">Recomendaciones</span></a>
+			</div>
+		</header>
+		<div class="row">
+			<div class="col m2 hide-on-small-and-down"></div>
+			<div class="col s12 m10"><span class="white-text text-darken-1"><h5>Viaja, Primero ECUADOR</h5></span></div>
+		</div>
+		<div class="row">
+			<div class="col m1 center-align hide-on-small-and-down">
+				<div><a class="waves-effect waves-light" href="#"><img src="img/fb.png"></a></div>
+				<div><a class="waves-effect waves-light" href="#"><img src="img/ig.png"></a></div>
+				<div><a class="waves-effect waves-light" href="#"><img src="img/tt.png"></a></div>
+			</div>
+			<div class="col m1 hide-on-small-and-down"></div>
+			<div class="col s12 m11">
+				<div class="row">
+					<div class="col m4">
+						<img class="responsive-img" width="100%" src="img/quilotoa.jpg">
+						<img class="responsive-img" width="100%" src="img/panecillo.jpg">
+					</div>
+					<div class="col m4">
+						<img class="responsive-img" width="100%" src="img/amarillo.jfif">
+					</div>
+					<div class="col m4">
+						<img class="responsive-img" width="100%" src="img/yasuni.jpg">
+						<img class="responsive-img" width="100%" src="img/galapagos.jpg">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col m9">
+				<div class="row card">
+					<div class="col m12">
+						<h4>Islas Galapagos</h4>
+						<div>
+							<a class="btn btn-small waves-effect waves-light blue-grey" style="border-radius: 15px" href="#"><i class="material-icons right">event</i>25 de Marzo 2020</a>
+							<a class="btn btn-small waves-effect waves-light blue-grey" style="border-radius: 15px" href="#"><i class="material-icons right">location_on</i>Ecuador</a>
+						</div>
+						<br>
+						<img class="materialboxed responsive-img" width="100%" src="img/paraiso.jpg">
+						<p>
+							Las islas Galápagos son un archipiélago de 19 islas situadas unos mil kilómetros de la costa de Ecuador al oeste en el océano Pacífico. En este texto trataré la historia de este archipiélago interesante que es famoso de su ecosistema extraordinario.
+
+							Se estima que el archipiélago se formó por movimientos tectónicos hace unos cinco millones de años. Las islas del este son las más antiguas y las del oeste se formaron más recientemente. Aún están en proceso de formación con sus erupciones volcánicas.
+							En el siglo XIX, cuando la piratería y el poder español en Latinoamérica empezaron a disminuir, la Revolución Industrial cambió las demandas de oro a la demanda de aceite de ballenas. Entonces la caza de ballenas (valaanpyynti) llegó a ser el nuevo negocio en las islas Galápagos. Por eso, los buques ingleses y americanos empezaron a explorar las islas y sus potenciales para la caza de ballenas. Con este nuevo negocio internacional, se trajeron nuevos animales en las islas, por ejemplo la cabra que luego sobrepasó algunas especies indígenas de las islas.
+							
+							 
+						</p>
+					</div>
+				</div>
+				<div class="row card teal lighten-1 white-text">
+
+					<form class="col s12">
+						<h5>Deja tu comentario</h5>
+						<div class="row">
+							<div class="input-field col s6">
+								<i class="material-icons prefix">person</i>
+								<input id="icon_person" type="text" class="validate">
+								<label for="icon_person">Nombre</label>
+							</div>
+							<div class="input-field col s6">
+								<i class="material-icons prefix">mail</i>
+								<input id="icon_mail" type="tel" class="validate">
+								<label for="icon_mail">Correo</label>
+							</div>
+						</div>
+						<div class="input-field col s12">
+							<i class="material-icons prefix">comment</i>
+							<textarea id="textarea1" class="materialize-textarea"></textarea>
+						  	<label for="textarea1"><label for="textarea1">Textarea</label></label>
+						</div>
+					</form>
+        			<div class="row center-align">
+        				<div class="col s12 m12">
+        					<button class="btn waves-effect waves-light" type="submit" name="action" id="enviar">Enviar<i class="material-icons right">send</i></button>
+        				</div>
+        			</div>
+				</div>
+			</div>
+			<div class="col s10 m3 offset-s1">
+				<div class="row card">
+					<div class="col m12 center-align" style="padding-top: 5px">
+						<img class="circle" width="50%" src="img/mujer.png">
+						<h5>Perfil del Autor</h5>
+						<div class="divider"></div>
+						<p>
+							Erika Miranda Fajardo, nacida en Cuenca Ecuador el 03 de Marzo de 1993.
+							Fotografa aficionada, amante a la aventura, viajar y descubrir las culturas y tradiciones del Mundo.
+							Recomiendo conocer las Islas Galapagos, es una avnetura y encuentro con la naturaleza en su estado mas puro! 
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="js/materialize.js"></script>
+	<script src="js/init.js"></script>
+</body>
+</html>
